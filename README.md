@@ -170,7 +170,8 @@ To run the verification suite:
 3. Run the node verification script:
    ```bash
    # Run the integration test suite
-   node ../.gemini/antigravity/brain/51c5f619-cde4-4e93-ab6e-e2dc29f33103/scratch/verify.js
+   node tests/verify.js
    ```
+
 
 All tests should output `✅` and finish with `🌟 ALL INTEGRATION TESTS PASSED SUCCESSFULLY! 🌟`.
