@@ -117,10 +117,10 @@ cd assignment21May
 3. **Configure Environment Variables**:
    Create a `.env` file inside the `backend/` directory:
    ```env
-   PORT=5000
-   MONGO_URI=mongodb+srv://jackleebeast420_db_user:qCuyydBq1OHeZ7kv@cluster0.2aph1ln.mongodb.net/task_tracking_db?retryWrites=true&w=majority
-   JWT_SECRET=supersecretjwtkey12345!
-   JWT_EXPIRE=30d
+    PORT=5000
+    MONGO_URI=mongodb+srv://<username>:<password>@cluster0.xxxxxxx.mongodb.net/task_tracking_db?retryWrites=true&w=majority
+    JWT_SECRET=your_jwt_secret_key
+    JWT_EXPIRE=30d
    ```
 
 4. **Seed the Administrator Account**:
